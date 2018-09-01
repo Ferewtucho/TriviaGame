@@ -26,6 +26,6 @@ The scenario is similar for wrong answers and time-outs.
 
 On the final screen, show the number of correct answers, incorrect answers, and an option to restart the game (without reloading the page).
 
-<a href = "https://ferewtucho.github.io/TriviaGame/">Click</a>right here to try .
+<a href = "https://ferewtucho.github.io/TriviaGame/">Click</a> right here to try .
 
 
