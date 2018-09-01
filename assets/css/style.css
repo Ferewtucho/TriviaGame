@@ -1,0 +1,116 @@
+body {
+    background-image:url("../images/bigstock-American-Memorial-Background-93496328-900x445.jpg");
+    background-size: cover;
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+#Header {
+    text-align:center;
+    font-weight:900;
+    color: black;
+    font-size:50px;
+    font-family:'Cinzel Decorative', monospace;
+    text-shadow: 4px 4px 4px black;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+}
+.jumbotron {
+    background-image:url("../images/BBHOP-Background-copy-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height:800px;
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:80px;
+    margin-bottom: 20px;
+}
+
+.startButton {
+    font-family:'Cinzel Decorative', monospace;
+    text-align:center;
+    color:#FFFAFA;
+    width:200px;
+    height:60px;
+    font-size:20px;
+    margin-top:150px;
+}
+.question {
+    font-family:'Cinzel Decorative', monospace;
+    text-align:center;
+    font-size:30px;
+    color:#FFFAFA;
+    margin:10px 40px 40px 40px;
+    text-shadow:1px 2px 4px black;
+}
+.timeLeft {
+    font-family:'Cinzel Decorative', monospace;
+    text-align:center;
+    font-size:30px;
+    color:#FFFAFA;
+    margin:20px;
+}
+.answerChoices {
+    font-family:'Cinzel Decorative', monospace;
+    text-align:center;
+    font-size:22px;
+    color:#FFFAFA;
+    background-color: black;
+    opacity: 0.6;
+    padding: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    cursor:pointer;
+    max-width:360px;
+}
+
+#correctIncorrect {
+    font-family:'Cinzel Decorative', monospace;
+    text-align:center;
+    font-size:18px;
+    color:#FFFAFA;
+    margin:30px 0;
+}
+
+#image {
+    height:230px;
+    margin-top:20px;
+}
+
+.restartButton {
+text-align:center;
+font-size:18px;
+color:black;
+margin:10px 350px 0 350px;
+background-color:#696969;
+padding:15px;
+font-family: 'Cinzel Decorative', monospace;
+}
+
+#correctIncorrectHeader {
+    text-align:center;
+    font-size:40px;
+    color:#FFFAFA;
+    margin:20px 40px 40px 40px;
+    text-shadow:1px 2px 4px black;
+}
+
+.clearfix:before,
+.clearfix:after {
+content: " ";
+display: table;
+}
+
+.clearfix:after {
+clear: both;
+}
+
+
+.clearfix {
+*zoom: 1;
+} 
