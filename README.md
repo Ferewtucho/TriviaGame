@@ -1,6 +1,6 @@
 # TriviaGame
 
-<h3>Created by using</h3> :-
+<h3>Created by using :-</h3> 
                     <ul>
                         <li>HTML5</li>
                         <li>CSS3</li>
