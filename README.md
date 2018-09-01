@@ -2,11 +2,11 @@
 
 <h3>Created by using</h3> :-
                     <ul>
-                        <li>JavaScript</li>
-                        <li>jQuery</li>
                         <li>HTML5</li>
                         <li>CSS3</li>
-                        
+                        <li>Javascript</li>
+                        <li>JQuery</li>
+                     </ul>  
 <img src = "assets/images/screen-Shot.png" width = "500" height = "350">
 
 The player have to press start first inorder to start the game.
@@ -22,6 +22,7 @@ The scenario is similar for wrong answers and time-outs.
   
   <li>If the player chooses the wrong answer, tell the player they selected the wrong option and then display the correct answer. Wait a few seconds, then show the next question.</li>
 
+</ul>
 
 On the final screen, show the number of correct answers, incorrect answers, and an option to restart the game (without reloading the page).
 
