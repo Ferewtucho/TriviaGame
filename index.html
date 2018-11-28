@@ -16,17 +16,28 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+    <link rel="stylesheet" type="text/css" href="assets/css/aos.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
 <body>
     <div class="jumbotron onee">
-        <h2 id="Header"> Black History</h2>
-        <div class="gameBox question">
+        <h2 id="Header" data-aos="zoom-in"> Black History</h2>
+        <div class="gameBox question" data-aos="zoom-in-left">
             <button class='startButton btn btn-primary center-block'>Start</button>
         </div>
     </div>
+
+    <script type="text/javascript" src="assets/javascript/aos.js"></script>
+
+    <script type="text/javascript">
+        AOS.init({
+            duration: 1600,
+        })
+    </script>
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
